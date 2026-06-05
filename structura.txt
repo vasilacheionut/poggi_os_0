@@ -1,0 +1,77 @@
+.
+├── ata.o
+├── boot
+│   ├── boot.asm
+│   └── boot.bin
+├── boot.bin
+├── build
+│   ├── bin
+│   └── obj
+├── core
+│   ├── main.c
+│   ├── poggi_fs.c
+│   ├── poggi_ipc.c
+│   ├── poggi_mem.c
+│   ├── poggi_string.c
+│   └── poggi_task.c
+├── documentatie.md
+├── drivers
+│   ├── ata.c
+│   ├── ata.h
+│   ├── heap.c
+│   ├── heap.h
+│   ├── keyboard.c
+│   ├── keyboard.h
+│   ├── vga.c
+│   └── vga.h
+├── fs_root
+│   ├── help.txt
+│   ├── nota.txt
+│   └── test.txt
+├── .git
+│   ├── branches
+│   ├── config
+│   ├── description
+│   ├── HEAD
+│   ├── hooks
+│   ├── index
+│   ├── info
+│   ├── logs
+│   ├── objects
+│   ├── packed-refs
+│   └── refs
+├── .gitignore
+├── hal
+│   └── hosted
+├── heap.o
+├── include
+│   ├── poggi_fs.h
+│   ├── poggi_hal.h
+│   ├── poggi_ipc.h
+│   ├── poggi_mem.h
+│   ├── poggi_string.h
+│   └── poggi_task.h
+├── kernel
+│   ├── entry.asm
+│   ├── entry.o
+│   ├── kernel.c
+│   ├── linker.ld
+│   ├── task.c
+│   ├── task.h
+│   └── task_switch.asm
+├── kernel.bin
+├── kernel.o
+├── keyboard.o
+├── Makefile
+├── make.sh
+├── os_image.bin
+├── Poggi_OS_Faza_1.pdf
+├── README.md
+├── structura.txt
+├── task.o
+├── task_switch.o
+├── tools
+│   └── poggi_mkfs.py
+└── vga.o
+
+20 directories, 55 files
